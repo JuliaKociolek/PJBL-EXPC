@@ -34,6 +34,3 @@ Listar projetos
 Editar projetos
 Visualizar detalhes
 Excluir projetos
-👩‍🎓 Autora
-
-Julia Machado Kociolek
