@@ -1,0 +1,138 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Container geral */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 15px;
+}
+.card, .form-container {
+  max-width: 700px;
+  margin: 15px auto;
+}
+
+/* Títulos */
+h1, h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Cards (lista e detalhes) */
+.card, .form-container {
+  background: #1e1e1e;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+/* Inputs */
+.input {
+  width: 95%;
+  margin-bottom: 12px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background: #2a2a2a;
+  color: #fff;
+}
+
+.textarea {
+  min-height: 80px;
+}
+
+/* Botões base */
+a, button {
+  display: inline-block;
+  margin: 5px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Botões específicos */
+.btn-view {
+  background-color: #3498db;
+  color: white;
+}
+
+.btn-edit {
+  background-color: #f39c12;
+  color: white;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.btn-novo {
+  background-color: #2ecc71;
+  color: white;
+  display: block;
+  width: fit-content;
+  margin: 10px auto;
+}
+
+.btn-salvar {
+  background-color: #2ecc71;
+  color: white;
+  width: 100%;
+}
+
+.btn-voltar {
+  background-color: #7f8c8d;
+  color: white;
+}
+
+/* Hover suave */
+button:hover, a:hover {
+  opacity: 0.85;
+}
+
+/* Tela de sucesso */
+.sucesso {
+  text-align: center;
+}
+
+.sucesso h2 {
+  color: #2ecc71;
+}
+
+/* Textos */
+p {
+  color: #ccc;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-box {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.modal-botoes {
+  margin-top: 15px;
+}
